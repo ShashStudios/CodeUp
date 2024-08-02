@@ -12,6 +12,7 @@
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",
+    "@monaco-editor/react": "^4.6.0",
     "daisyui": "^4.12.10",
     "frame": "^1.0.0-alpha.2",
     "monaco-editor": "^0.50.0",

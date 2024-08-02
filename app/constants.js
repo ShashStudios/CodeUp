@@ -1,18 +1,23 @@
 export const LANGUAGE_VERSIONS = {
-  javascript: "18.15.0",
-  typescript: "5.0.3",
   python: "3.10.0",
   java: "15.0.2",
-  csharp: "6.12.0",
-  php: "8.2.3",
 };
 
 export const CODE_SNIPPETS = {
-  javascript: `\nfunction greet(name) {\n\tconsole.log("Hello, " + name + "!");\n}\n\ngreet("Alex");\n`,
-  typescript: `\ntype Params = {\n\tname: string;\n}\n\nfunction greet(data: Params) {\n\tconsole.log("Hello, " + data.name + "!");\n}\n\ngreet({ name: "Alex" });\n`,
   python: `\ndef greet(name):\n\tprint("Hello, " + name + "!")\n\ngreet("Alex")\n`,
   java: `\npublic class HelloWorld {\n\tpublic static void main(String[] args) {\n\t\tSystem.out.println("Hello World");\n\t}\n}\n`,
-  csharp:
-    'using System;\n\nnamespace HelloWorld\n{\n\tclass Hello { \n\t\tstatic void Main(string[] args) {\n\t\t\tConsole.WriteLine("Hello World in C#");\n\t\t}\n\t}\n}\n',
-  php: "<?php\n\n$name = 'Alex';\necho $name;\n",
 };
+
+export const DESCRIPTIONS = {
+ sleepin:"\nThe parameter weekday is true if it is a weekday, and the parameter vacation is true " +
+"if we are on vacation. We sleep in if it is not a weekday or we're on vacation. Return true if we sleep in.\n " +
+"sleepIn(false, false) → true \n sleepIn(true, false) → false \n sleepIn(false, true) → true \n",
+string_times:"\nGiven a string and a non-negative int n, return a larger string that is n copies of the original string.\n string_times('Hi', 2) → 'HiHi'\n string_times('Hi', 3) → 'HiHiHi'\n string_times('Hi', 1) → 'Hi'\n"
+ 
+};
+
+export const DESCODING = {
+  sleepin:"\def sleep_in(weekday, vacation): \n",
+  string_times: "\ndef string_times(str, n):\n"
+ };
+ 
