@@ -1,8 +1,8 @@
 'use client'
 import React from 'react';
 import { ChakraProvider, Box } from '@chakra-ui/react';
-import theme from '../theme'; // Adjust the import path if necessary
-import QuestionOne from './QuestionOne/page'; // Adjust the import path if necessary
+import theme from '../theme'; 
+import QuestionOne from './sandbox/page';
 
 const RootLayout: React.FC = () => {
   return (

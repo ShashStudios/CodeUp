@@ -1,15 +1,9 @@
-import Image from "next/image";
-import Navigation from "../../../components/Navigation";
-import CardGrid from "../../../components/CardGrid";
-import React, { useState } from 'react';
-import Footer from "../../../components/Footer";
+import React from 'react'
 
-export default function Home() {
+const home = () => {
   return (
-    <main className="bg-base-300">
-      <Navigation></Navigation>
-      <CardGrid></CardGrid>
-      <Footer></Footer>
-    </main>
-  );
+    <div>home</div>
+  )
 }
+
+export default home
