@@ -7,19 +7,24 @@ import LanguageSelector from "./LanguageSelector";
 import { CODE_SNIPPETS } from "../app/constants";
 import Output from "./Output";
 
-const CodeEditor = () => {
-  const editorRef = useRef();
-  const [value, setValue] = useState("");
-  const [language, setLanguage] = useState("python");
+interface CodeEditorProps {
+  initialValue?: string;
+  initialLanguage?: string;
+}
 
-  const onMount = (editor) => {
+const CodeEditor: React.FC<CodeEditorProps> = ({ initialValue = "", initialLanguage = "python" }) => {
+  const editorRef = useRef<any>(null);
+  const [value, setValue] = useState(initialValue);
+  const [language, setLanguage] = useState(initialLanguage);
+
+  const onMount = (editor: any) => {
     editorRef.current = editor;
     editor.focus();
   };
 
-  const onSelect = (language) => {
+  const onSelect = (language: string) => {
     setLanguage(language);
-    setValue(CODE_SNIPPETS[language]);
+    setValue(initialValue);
   };
 
   return (
@@ -36,9 +41,8 @@ const CodeEditor = () => {
             height="75vh"
             theme="vs-dark"
             language={language}
-            defaultValue={CODE_SNIPPETS[language]}
-            onMount={onMount}
             value={value}
+            onMount={onMount}
             onChange={(value) => setValue(value)}
           />
         </Box>
@@ -47,4 +51,5 @@ const CodeEditor = () => {
     </Box>
   );
 };
+
 export default CodeEditor;

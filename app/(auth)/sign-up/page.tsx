@@ -2,7 +2,7 @@ import React from 'react'
 
 const home = () => {
   return (
-    <div>hero</div>
+    <div>signup</div>
   )
 }
 

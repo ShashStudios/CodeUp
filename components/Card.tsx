@@ -1,17 +1,7 @@
-// components/Card.tsx
 'use client'; // Ensure this is a client component
 
 import React from 'react';
 import { useRouter } from 'next/navigation';
-
-// Define the props interface
-interface CardProps {
-  title: string;
-  description: string;
-  badgeText: string;
-  badges: string[];
-  keyId: string; // Add key or id to identify the description
-}
 
 // Define badge class mappings
 const badgeClassMap: { [key: string]: string } = {
@@ -64,3 +54,4 @@ const Card: React.FC<CardProps> = ({ title, description, badgeText, badges, keyI
 };
 
 export default Card;
+
