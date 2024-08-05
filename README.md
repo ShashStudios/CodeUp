@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Code Up 🔥
+
+Welcome to Code Up, a dynamic platform designed specifically for beginner and first-year computer science students to solidify their coding skills and gain practical experience. Whether you're just starting out or looking to reinforce your understanding, Code Up provides a structured and engaging environment to enhance your learning journey.
+
+# Overview
+Code Up focuses on foundational programming concepts and languages, offering a hands-on approach to coding. The platform covers:
+
+Languages: Python and Java 
+
+Approach: Based on real intro-level computer science classes
+
+## Features:
+
+- Interactive Coding Exercises: Practice coding with exercises designed to reinforce key concepts and problem-solving skills.
+
+- Conceptual Tutorials: Learn the fundamentals through step-by-step tutorials that break down complex topics into manageable chunks.
+
+- Real-World Scenarios: Engage with problems and projects that mimic real-world coding challenges, providing practical experience beyond the classroom.
+
+- Progress Tracking: (Coming Soon!) Monitor your progress with built-in assessments and track your improvements over time.
+
+- Blog: (Coming Soon!) Understand how to tailor your education to maximize the building blocks of becoming a Software Engineer!
+
 
 ## Getting Started
 
-First, run the development server:
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-```bash
+```
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Prerequisites
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Ensure npm is up to date
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```
+npm install npm@latest -g
+```
 
-## Learn More
+### Installing
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone the Repo
+```
+git clone https://github.com/ShashStudios/CodeUp.git
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+2. Install NPM packages
 
-## Deploy on Vercel
+```
+npm install
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+npm install axios
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Deployment
+
+Will be deployed on Vercel
+
+## Built With
+
+* [Next.js](https://nextjs.org/) - The web framework used
+* [Monaco](https://microsoft.github.io/monaco-editor/) - Code Editor Used
+* [Daisy.ui](https://daisyui.com/) - Used for Styling
+* [Chakra](https://v2.chakra-ui.com/) - Used for Styling
+
+## Contributing
+
+We are not currently looking for contributors
+
+## Authors
+
+* **🔥Shashwat Panigrahi** - *Initial work* - [ShashStudios](https://github.com/ShashStudios)
+
+* **🔥Thomas Mbrice** - *Initial work* - [Thomas](https://github.com/ThomasMbrice)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Nikita Dev for tutorial video on how to use Monaco Code Editor
