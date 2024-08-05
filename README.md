@@ -5,92 +5,75 @@ Welcome to Code Up, a dynamic platform designed specifically for beginner and fi
 # Overview
 Code Up focuses on foundational programming concepts and languages, offering a hands-on approach to coding. The platform covers:
 
-Languages: Python and Java
-Concepts: Strings, Arrays, Recursion
+Languages: Python and Java 
 
 Approach: Based on real intro-level computer science classes
-Features
-Interactive Coding Exercises: Practice coding with exercises designed to reinforce key concepts and problem-solving skills.
-Conceptual Tutorials: Learn the fundamentals through step-by-step tutorials that break down complex topics into manageable chunks.
-Real-World Scenarios: Engage with problems and projects that mimic real-world coding challenges, providing practical experience beyond the classroom.
-Progress Tracking: Monitor your progress with built-in assessments and track your improvements over time.
+
+## Features:
+
+- Interactive Coding Exercises: Practice coding with exercises designed to reinforce key concepts and problem-solving skills.
+
+- Conceptual Tutorials: Learn the fundamentals through step-by-step tutorials that break down complex topics into manageable chunks.
+
+- Real-World Scenarios: Engage with problems and projects that mimic real-world coding challenges, providing practical experience beyond the classroom.
+
+- Progress Tracking: (Coming Soon!) Monitor your progress with built-in assessments and track your improvements over time.
+
+- Blog: (Coming Soon!) Understand how to tailor your education to maximize the building blocks of becoming a Software Engineer!
 
 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
+```
+npm run dev
+```
+
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Ensure npm is up to date
 
 ```
-Give examples
+npm install npm@latest -g
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
-
+1. Clone the Repo
 ```
-Give the example
+git clone https://github.com/ShashStudios/CodeUp.git
 ```
 
-And repeat
+2. Install NPM packages
 
 ```
-until finished
-```
+npm install
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
+npm install axios
 ```
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Will be deployed on Vercel
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Next.js](https://nextjs.org/) - The web framework used
+* [Monaco](https://microsoft.github.io/monaco-editor/) - Code Editor Used
+* [Daisy.ui](https://daisyui.com/) - Used for Styling
+* [Chakra](https://v2.chakra-ui.com/) - Used for Styling
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+We are not currently looking for contributors
 
 ## Authors
 
-* **🔥Shashwat Panigrahi** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **🔥Shashwat Panigrahi** - *Initial work* - [ShashStudios](https://github.com/ShashStudios)
 
-* **🔥Thomas Mbrice** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **🔥Thomas Mbrice** - *Initial work* - [Thomas](https://github.com/ThomasMbrice)
 
 ## License
 
@@ -98,6 +81,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Nikita Dev for tutorial video on how to use Monaco Code Editor
